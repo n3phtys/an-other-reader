@@ -1,0 +1,24 @@
+// Import library functions for theme creation.
+@import '~@angular/material/theming';
+// Include non-theme styles for core.
+@include mat-core();
+
+
+@import "~@angular/material/prebuilt-themes/pink-bluegrey.css";
+
+
+
+
+.example-fill-remaining-space {
+    /* This fills the remaining space, by using flexbox. 
+       Every toolbar row uses a flexbox row layout. */
+    flex: 1 1 auto;
+  }
+
+* {
+   background-color: mat-color($mat-blue-grey, '100');
+   color: mat-color($mat-blue-grey, '100-contrast');
+   border-color: mat-color($mat-amber, A400);
+}
+
+
