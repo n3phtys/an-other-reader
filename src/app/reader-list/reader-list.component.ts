@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ReaderStateService } from '../reader-state/reader-state.service';
 
 @Component({
   selector: 'app-reader-list',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ReaderListComponent implements OnInit {
 
-  constructor() { }
+  constructor(private readerState: ReaderStateService) { }
 
   ngOnInit() {
   }
