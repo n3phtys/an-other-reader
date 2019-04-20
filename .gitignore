@@ -48,3 +48,4 @@ Thumbs.db
 
 hosting.*.cache
 yarn.lock
+package-lock.json
